@@ -1,0 +1,185 @@
+body {
+	background: #F6FBFC;
+}
+
+.strawberrymilk {
+    position: absolute;
+    bottom: -25vw;}
+
+.strawberrymilk:hover {
+animation: shake 0.5s;
+animation-iteration-count: infinite;
+cursor: zoom-in;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.blueberrymilk {
+	position: absolute;
+    bottom: -25vw;}
+
+.blueberrymilk:hover {
+animation: shake 0.5s;
+animation-iteration-count: infinite;
+cursor: zoom-in;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.cchip {
+    max-width: 20vw;
+    position: absolute;
+    left: 25%;
+    top: 12%;
+}
+
+.cchip:hover {
+    cursor: zoom-in;
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.macaron {
+    max-width: 20vw;
+    position: absolute;
+    left: 53%;
+    top: 15%;
+}
+
+.macaron:hover {
+	cursor: zoom-in;
+	opacity: 0.2;
+	transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+    transform: rotate(180deg);
+    transition: all 0.5s ease;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.tray:hover {
+  cursor: zoom-in;
+  background: linear-gradient(270deg, #ff00f5, #ffd736, #f2a4ff, #6bf51d, #06e854);
+  background-size: 1000% 1000%;
+
+  -webkit-animation: slideBackground 2s ease infinite;
+  -moz-animation: slideBackground 2s ease infinite;
+  animation: slideBackground 2s ease infinite;
+}
+
+    @-webkit-keyframes slideBackground {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes slideBackground {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes slideBackground {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+
+.ginger {
+    transform: rotate(
+90deg
+);
+    max-width: 19vw;
+    position: absolute;
+    left: 31%;
+    top: 41%;}
+
+.ginger:hover {
+	cursor: zoom-in;
+    transform: rotate(0deg);
+        transition: all 0.3s ease-in-out 0s;
+     animation: shake 0.8s;
+    transition: all 0.3s ease-in-out 0s;
+animation-iteration-count: infinite;
+cursor: zoom-in;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.sugar {
+    max-width: 19vw;
+    position: absolute;
+    left: 53%;
+    top: 45%;
+}
+
+.sugar:hover {
+  animation-duration: 2s;
+  animation-name: spinType;
+}
+
+
+@keyframes spinType {
+  0% {
+    transform: rotate(0.3turn);
+  }
+  50% {
+    transform: rotate(0.7turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+.scout {
+	opacity: 0;
+    max-width: 19vw;
+    position: absolute;
+    left: 39%;
+    top: 31%;
+}
+
+.scout:hover{
+	cursor: zoom-in;
+	opacity: 1;
+	transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}
